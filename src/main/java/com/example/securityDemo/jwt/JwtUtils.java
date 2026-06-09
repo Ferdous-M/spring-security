@@ -18,9 +18,9 @@ import java.security.Key;
 import java.util.Date;
 
 @Component
-public class jwtUtils {
+public class JwtUtils {
 
-    private static final Logger logger = LoggerFactory.getLogger(jwtUtils.class);
+    private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
     @Value("${spring.app.jwtSecret}")
     private String jwtSecret;
