@@ -1,6 +1,8 @@
 package com.example.securityDemo;
 
 import com.example.securityDemo.jwt.JwtUtils;
+import com.example.securityDemo.jwt.LoginRequest;
+import com.example.securityDemo.jwt.LoginResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
